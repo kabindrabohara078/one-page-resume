@@ -329,7 +329,7 @@ html {
     /* background-color: tomato; */
 }
 .view-projects .btn{
-    height: 30px;
+    height: 100%;
     width:40%;
 }
 
