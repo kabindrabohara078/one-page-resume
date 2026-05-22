@@ -198,6 +198,10 @@ html {
     display: none;
 }
 
+.name .view-projects .btn a{
+    height: 100%;
+    width: 100%;
+}
 
 @media (min-width: 1024px) {
     .content {
@@ -298,6 +302,27 @@ html {
     .heading {
         font-size: 40px;
     }
+
+    .go-to-projects .click-project{
+    height: 100%;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    }
+
+    .go-to-projects .click-project a{
+    height: 100%;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
     p,
     h4 {
