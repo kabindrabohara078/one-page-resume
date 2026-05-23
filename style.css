@@ -77,6 +77,8 @@ html {
         color 0.25s ease;
 }
 
+
+
 .contact-info {
     font-size: 13px;
 }
@@ -201,7 +203,13 @@ html {
 .name .view-projects .btn a{
     height: 100%;
     width: 100%;
+    text-decoration: none;
 }
+
+.click-project a{
+    text-decoration: none;
+}
+
 
 @media (min-width: 1024px) {
     .content {
