@@ -63,11 +63,11 @@ html {
 }
 
 .btn {
-    height: 15px;
+    height: 30px;
     width: 150px;
     border: 1px solid rgb(34, 72, 197);
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
     cursor: pointer;
     color: grey;
     border-radius: 15px;
@@ -77,6 +77,13 @@ html {
         color 0.25s ease;
 }
 
+.btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
 
 
 .contact-info {
@@ -187,9 +194,22 @@ html {
     cursor: pointer;
 }
 
-.click-project {
-    color: rgb(34, 72, 197);
-    background-color: #333;
+.click-project{
+    /* color: white; */
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+}
+
+.click-project a{
+    color: white;
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .underline {
@@ -209,6 +229,9 @@ html {
 .click-project a{
     text-decoration: none;
 }
+
+
+
 
 
 @media (min-width: 1024px) {
@@ -337,8 +360,9 @@ html {
     /* background-color: tomato; */
 }
 .view-projects .btn{
-    height: 100%;
-    width:40%;
+    height: 40px;
+    /* width:40%; */
+
 }
 
 .view-projects .btn a{
