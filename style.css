@@ -159,10 +159,40 @@ html {
 }
 
 .all-tech-skills {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     /* height: 5000px; */
     padding: 5px;
+}
+
+.lang{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.web-dev{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.databases{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ds-libraries{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.libraries-frameworks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile-dev{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skill-name {
@@ -487,8 +517,8 @@ html {
 
     .svg-img:hover {
         background-color: grey;
-        /* transition-duration: 0.1s; */
-        /* scale: 1.1; */
+        /* transition-duration: 0.001s; */
+        scale: 1.1;
 
         .svg-img-act {
             background-color: grey;
