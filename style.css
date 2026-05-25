@@ -456,6 +456,9 @@ html {
         animation-timing-function: cubic-bezier(0, 2.44, 0.43, 2.23);
     }
 
+    .misc-skill-name{
+        font-size: 10px;
+    }
     @keyframes proj-1 {
         from {
             transform: translateX(10px);
